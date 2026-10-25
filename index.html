@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Papa Tidiane Diop, étudiant en ingénierie logicielle.">
+  <title>Portfolio de Papa Tidiane Diop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#accueil">&lt;/&gt; PTD.</a>
+      <nav aria-label="Navigation principale">
+        <a href="#apropos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a class="btn" href="#contact">Me contacter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Portfolio d'un développeur</span>
+          <h1>Bonjour, je suis <span>Papa Tidiane Diop.</span></h1>
+          <p class="lead">
+            Étudiant en Master Ingénierie Logicielle à l’Université
+            numérique Cheikh Hamidou Kane (UNCHK), je m’intéresse
+            à la conception et au développement de solutions numériques
+            utiles, accessibles et adaptées aux besoins des utilisateurs.
+          </p>
+          <div class="actions">
+            <a class="btn" href="#projets">Découvrir mes projets</a>
+            <a class="btn btn-outline" href="#contact">Entrer en contact</a>
+          </div>
+          <div class="hero-meta">
+            <span>Développement web</span>
+            <span>Conception d’applications</span>
+            <span>Apprentissage continu</span>
+          </div>
+        </div>
+
+        <div class="code-card">
+          <p class="code-label">portfolio / about-me.js</p>
+          <pre><code>const developer = {
+  name: "Papa Tidiane Diop",
+  role: "Étudiant en ingénierie logicielle",
+  interests: [
+    "Développement web",
+    "Conception logicielle",
+    "Solutions numériques"
+  ]
+};</code></pre>
+          <p class="code-comment">// Transformer les idées en solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="apropos">
+      <div class="container">
+        <span class="eyebrow">À propos</span>
+        <h2>Curieux par nature, ingénieur en devenir.</h2>
+        <div class="about-panel">
+          <h3>Le code transforme les idées en réalité.</h3>
+          <p>
+            Actuellement étudiant en Master Ingénierie Logicielle à
+            l’Université numérique Cheikh Hamidou Kane (UNCHK), je
+            développe mes compétences en programmation, en conception
+            d’applications web et en résolution de problèmes. Mes projets
+            universitaires me permettent de découvrir les différentes
+            étapes d’un projet informatique, depuis l’analyse des besoins
+            jusqu’à la conception de la solution. Je souhaite approfondir
+            mes connaissances en développement front-end et back-end afin
+            de participer à la création d’applications fiables, pratiques
+            et faciles à utiliser.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projets">
+      <div class="container">
+        <span class="eyebrow">Projets universitaires</span>
+        <h2>Des idées transformées en solutions web.</h2>
+        <p class="section-intro">
+          Ces deux projets portent sur le domaine immobilier. Ils illustrent
+          mon intérêt pour la conception de sites web et d’applications
+          destinés à simplifier l’accès aux informations et la gestion
+          des activités immobilières.
+        </p>
+
+        <div class="cards">
+          <article class="project-card">
+            <div class="card-icon">⌂</div>
+            <p class="project-meta">Projet 01 · Site web immobilier</p>
+            <h3>IDA_IMMO</h3>
+
+            <p>
+              IDA_IMMO est un projet collectif de création d’un site web
+              immobilier consacré à la présentation et à la consultation
+              de biens immobiliers au Sénégal. Son objectif est de permettre
+              aux visiteurs de découvrir les offres disponibles et de
+              trouver plus facilement des informations sur les logements
+              et les propriétés proposés.
+            </p>
+            <p>
+              Le site prévoit des pages de présentation des biens, des
+              fiches détaillées contenant les informations essentielles,
+              ainsi que des moyens de contact permettant aux personnes
+              intéressées de communiquer avec les professionnels de
+              l’immobilier. Le projet m’a permis d’explorer la création
+              de pages web, l’organisation des contenus et l’utilisation
+              d’un système de gestion de contenu.
+            </p>
+            <p>
+              La réalisation s’appuie notamment sur WordPress et le thème
+              Astra. L’objectif est de proposer une interface claire,
+              agréable à consulter et adaptée aux ordinateurs, tablettes
+              et téléphones.
+            </p>
+
+            <div class="tags">
+              <span class="tag">WordPress</span>
+              <span class="tag">CMS</span>
+              <span class="tag">Astra</span>
+              <span class="tag">Responsive design</span>
+            </div>
+
+            <a class="project-link"
+               href="http://ida-immo.unaux.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+              Visiter le site IDA_IMMO ↗
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="card-icon">⌘</div>
+            <p class="project-meta">Projet 02 · Application web</p>
+            <h3>Dev-Immo</h3>
+
+            <p>
+              Dev-Immo est un projet collectif de conception d’une
+              application web destinée à faciliter la gestion des activités
+              d’une agence immobilière. L’objectif principal est de
+              centraliser les informations relatives aux biens, aux clients
+              et aux agents afin de rendre le suivi des opérations plus
+              simple et plus organisé.
+            </p>
+            <p>
+              Le cahier des charges prévoit plusieurs fonctionnalités,
+              notamment la gestion des annonces immobilières, l’organisation
+              des demandes de visite, la gestion des rôles des utilisateurs
+              et le suivi des opérations de vente ou de location. Un tableau
+              de bord pourrait également permettre aux responsables de
+              consulter des indicateurs utiles au pilotage de l’activité.
+            </p>
+            <p>
+              Ce projet permet d’aborder les différentes étapes de la
+              conception d’une application : analyse des besoins, définition
+              des fonctionnalités, réflexion sur l’interface et choix des
+              technologies. Les technologies envisagées comprennent HTML,
+              CSS, JavaScript, PHP avec Laravel, Vue.js et Bootstrap 5,
+              ainsi que Figma pour la conception des interfaces.
+            </p>
+
+            <div class="tags">
+              <span class="tag">HTML / CSS / JavaScript</span>
+              <span class="tag">PHP / Laravel</span>
+              <span class="tag">Vue.js</span>
+              <span class="tag">Bootstrap 5</span>
+              <span class="tag">Figma</span>
+            </div>
+
+            <a class="project-link"
+               href="https://github.com/MSG-G/Projet-soutenance-creation-app-gestion-immobilier.git"
+               target="_blank"
+               rel="noopener noreferrer">
+              Consulter le projet sur GitHub ↗
+            </a>
+            <p class="note">
+              Les fonctionnalités décrites correspondent aux objectifs
+              du projet et ne sont pas nécessairement toutes déployées.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="competences">
+      <div class="container">
+        <span class="eyebrow">Savoir-faire</span>
+        <h2>Compétences et outils</h2>
+        <p class="section-intro">
+          Voici quelques technologies et outils utilisés ou abordés dans
+          le cadre de mes projets universitaires. Leur présence dans cette
+          liste ne signifie pas nécessairement que je les maîtrise tous
+          au même niveau.
+        </p>
+
+        <div class="cards">
+          <article class="skill-card">
+            <h3>Développement web</h3>
+            <p>
+              Technologies utilisées pour structurer les pages, définir
+              leur apparence et développer des fonctionnalités web.
+            </p>
+            <div class="tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">PHP</span>
+              <span class="tag">WordPress</span>
+              <span class="tag">Vue.js</span>
+              <span class="tag">Laravel</span>
+              <span class="tag">Bootstrap 5</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Conception et collaboration</h3>
+            <p>
+              Outils facilitant la conception des interfaces, la
+              documentation et le travail en équipe.
+            </p>
+            <div class="tags">
+              <span class="tag">Figma</span>
+              <span class="tag">Draw.io</span>
+              <span class="tag">Trello</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Google Drive</span>
+              <span class="tag">Postman</span>
+              <span class="tag">UML</span>
+              <span class="tag">Responsive design</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h2>Échangeons autour de vos projets.</h2>
+        <p class="section-intro">
+          Je suis disponible pour échanger sur des projets numériques,
+          des possibilités de collaboration ou des opportunités de stage.
+          N’hésitez pas à me contacter.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-list">
+            <div class="contact-item">
+              <strong>E-mail</strong>
+              <a href="mailto:tidiane.diop@unchk.edu.sn">
+                papatidiane.diop@unchk.edu.sn
+              </a>
+            </div>
+            <div class="contact-item">
+              <strong>Téléphone</strong>
+              <a href="tel:+221771929510">+221 77 192 95 10</a>
+            </div>
+            <div class="contact-item">
+              <strong>Localisation</strong>
+              <span>Rufisque, Dakar, Sénégal</span>
+            </div>
+          </div>
+
+          <form class="form-card" id="contact-form">
+            <label for="name">Nom complet</label>
+            <input id="name" name="name" type="text"
+                   placeholder="Votre nom" required>
+
+            <label for="email">Adresse e-mail</label>
+            <input id="email" name="email" type="email"
+                   placeholder="nom@exemple.com" required>
+
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message"
+                      placeholder="Écrivez votre message ici..."
+                      required></textarea>
+
+            <button class="btn" type="submit">
+              Préparer le message
+            </button>
+            <p class="note">
+              Ce formulaire ouvrira votre application de messagerie.
+              Il n’envoie pas directement le message depuis le site.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Papa Tidiane Diop · Portfolio</span>
+      <span>Conçu avec soin et passion pour le développement web.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
